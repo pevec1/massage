@@ -1,0 +1,53 @@
+.advantages {
+    padding: 64px 0;
+    font-family: "Montserrat";
+    color: #181a16;
+}
+
+.advantages .container {
+    max-width: 1290px;
+}
+
+.advantages .title {
+    margin: 0;
+    margin-bottom: 58px;
+
+    font-size: 52px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.advantages .item {
+    display: flex;
+    padding-top: 234px;
+    max-width: 386px;
+
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.advantages .item-one {
+    background-image: url("../img/icon-hand.png");
+}
+
+.advantages .item-two {
+    background-image: url("../img/icon-diplom.png");
+}
+
+.advantages .item-three {
+    background-image: url("../img/icon-money.png");
+}
+
+.advantages-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-items p {
+    margin: 0;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+}
