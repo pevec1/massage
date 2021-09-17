@@ -406,9 +406,6 @@ ul.logos li {
 }
 
 
-   .container {
-        min-width: 479px;
-    }
 	.advantages-items {
 		flex-direction: column;
 		align-items: center;
