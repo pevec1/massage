@@ -1,15 +1,33 @@
-/* test test test */
-.advantages {
-    padding: 64px 0;
-    font-family: "Montserrat";
-    color: #181a16;
+body {
+     font-family: "Montserrat";
     margin: auto;
-    max-width: 1254px;
+    font-size: 16px;
 }
+h1 {
+       margin: 0;
 
+    font-size: 52px;
+    line-height: 150%;
+    text-align: center;
+
+}
+p {
+    font-size: 32px;
+}
 a {
     text-decoration: none;
 }
+section {
+    margin-top: 50px;
+}
+.invitation {
+    background-image: url(../img/fon-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 512px;
+    margin-top: -200px;
+}
+
 .container {
   box-sizing: border-box;
   position: relative;
@@ -18,12 +36,11 @@ a {
   flex-direction: column;
   justify-content:space-around;
 	align-items: center;
-  max-width: 1290px;
+  min-width: 1290px; 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
 }
-ul{
+ul.logos{
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -34,16 +51,14 @@ ul{
     min-width: 1290px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 200px;
 }
 ul.logos li {
   /* display: inline-block; */
   vertical-align: middle;
   list-style-type: none;
   text-align: justify;
-  left:0;
-  right:0;
-  margin: auto;
-}
+ }
 
 .logo {
 	width: 174px;
@@ -60,6 +75,66 @@ ul.logos li {
   color: #FE847F;
   border: 2px solid #FE847F;
   border-radius: 50px;
+}
+.btn-sale {
+   border:none; 
+   font-weight: bolder;
+}
+
+.box-types{
+   box-sizing: border-box;
+   min-width: 1290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.types {
+box-sizing: border-box;
+    width:363px;
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 363px;
+    margin-left: auto;
+    margin-right: auto;
+border: 2px solid #AED26D;
+    border-radius: 10px;
+box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.heads{
+    box-sizing: border-box;
+    width:363px;
+    height: 88px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px 10px 0px 0px;
+border: 2px solid #AED26D;
+    background: #AED26D;
+}
+
+.flower{
+    box-sizing: border-box;
+    width:363px;
+    height: 88px;
+    margin: 0 auto;
+    text-align: center;
+border-top: 1px solid #AED26D;
+
+}
+
+.advantages {
+    padding: 64px 0;
+    font-family: "Montserrat";
+    color: #181a16;
+    margin: auto;
+    max-width: 1254px;
 }
 
 .advantages .title {
