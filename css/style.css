@@ -32,9 +32,9 @@ section {
   box-sizing: border-box;
   position: relative;
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content:space-around;
+    justify-content:space-around;
 	align-items: center;
   min-width: 1290px; 
   margin-left: auto;
@@ -44,7 +44,7 @@ ul.logos{
     box-sizing: border-box;
     position: relative;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +86,7 @@ ul.logos li {
    min-width: 1290px;
    max-width: 1290px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
